@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(27, 27, 27);
+}
+
+.main-header {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.tienda {
+    color: white;
+}
+
+.online {
+    color: yellow;
+}
+
+.listaProductos {
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.listaProductos ul {
+    list-style: none;
+    margin: auto;
+}
+
+.listaProductos ul li {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
